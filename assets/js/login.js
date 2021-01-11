@@ -1,7 +1,4 @@
-$(function () {
-    $.ajaxPrefilter(function (options) {
-        options.url = "http://api-breakingnews-web.itheima.net" + options.url;
-    })
+$(function () {  
     layui.form.verify({
         pwd: [
             /^[\S]{6,12}$/

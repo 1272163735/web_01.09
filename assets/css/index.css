@@ -1,0 +1,51 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+.iconfont{
+    margin-right: 8px;
+    
+}
+.layui-icon{
+    margin: 0 8px 0 20px;
+}
+iframe{
+    width: 100%;
+    height: 100%;
+}
+.layui-body{
+    overflow: hidden;
+}
+a{
+    transition: none !important;
+}
+.userinfo{
+    
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 12px;
+    user-select: none;
+}
+#yonghu,.userinfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.layui-side-scroll .userinfo{
+    border-bottom: 1px solid #282b33;
+}
+.text-avatar{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    position: relative;
+    
+    margin-right: 10px;
+    border-radius: 50%;
+    background-color: #009688;
+    font-size: 20px;
+    color: #fff;
+}
